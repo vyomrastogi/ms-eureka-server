@@ -2,10 +2,10 @@ spring:
   application:
     name: eureka-server
 server:
-  port: ${PORT:8080}
+  port: ${PORT:8762}
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
     serviceUrl: 
-     defaultZone: https://eureka-server-gcp.appspot.com/eureka
+     defaultZone: https://ms-eureka-server.herokuapp.com/eureka
